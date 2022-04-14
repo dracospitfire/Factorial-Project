@@ -3,7 +3,7 @@
   Project-1
 
   Created by Austin Flores on 10/4/13.
-  Copyright (c) 2013 Austin Flores. All rights reserved.
+  Copyright (c) 2013 dracospitfire. All rights reserved.
 */
 
 #include <iostream>
