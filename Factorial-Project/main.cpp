@@ -38,13 +38,13 @@ int main(int argc, const char * argv[])
     
     Failed_Attempt_4 = (15 * 14) * (13 * 12) * (11 * 10) * (9 * 8) * (7 * 6) * (5 * 4) * (3 * 2) * 1;
     
-    cout << "Failed attempt to compute 15! \"factorial\" using 32-bit long = " << Failed_Attempt_4 << "\n\n";
+    cout << "Failed attempt to compute 15! \"factorial\" using\n\t32-bit long = " << Failed_Attempt_4 << "\n\n";
     
     unsigned long Failed_Attempt_5;
     
     Failed_Attempt_5 = (15 * 14) * (13 * 12) * (11 * 10) * (9 * 8) * (7 * 6) * (5 * 4) * (3 * 2) * 1;
     
-    cout << "Failed attempt to compute 15! \"factorial\" using 32-bit unsigned long = " << Failed_Attempt_5 << "\n\n";
+    cout << "Failed attempt to compute 15! \"factorial\" using\n\t32-bit unsigned long = " << Failed_Attempt_5 << "\n\n";
     
     // 2) compute 15!"factorial" using 64-bit integers...
     int64_t Attempt_1_64bit;
@@ -94,7 +94,7 @@ int main(int argc, const char * argv[])
    
     difference1 = Attempt_1_64bit - Attempt_3_approximation;
     
-    cout <<"The difference between 64-bit value and approximation value\n\tis equal to: " << difference1 << "\n\n";
+    cout <<"The difference between 64-bit value &\nthe approximation value\n\tis equal to: " << difference1 << "\n\n";
     
     /* 2)
        the difference between the value compute using doubles and the value computed using Stirling's formula...
@@ -103,7 +103,7 @@ int main(int argc, const char * argv[])
     
     difference2 = Attempt_2_double - Attempt_3_approximation;
     
-    cout <<"The difference between double and approximation value\n\tis equal to: " << difference2 << "\n\n";
+    cout <<"The difference between double & the\napproximation value\n\tis equal to: " << difference2 << "\n\n";
   
     return 0;
 }
